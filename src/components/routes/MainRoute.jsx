@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navigate, Route, Routes } from 'react-router-dom'
-import Home from '../pages/Home'
+import Home from '../pages/home/Home'
 import NotFound from '../pages/errors/NotFound'
 
 export default function MainRoute() {

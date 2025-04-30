@@ -1,6 +1,7 @@
 {
-	"name": "base-react-js",
+	"name": "hatbi.online",
 	"private": true,
+	"homepage": "https://hatbi.online",
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
