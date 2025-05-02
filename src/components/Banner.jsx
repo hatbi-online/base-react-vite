@@ -5,7 +5,7 @@ import Button from './common/Button'
 
 export default function Banner() {
 	return (
-		<div className='h-screen'>
+		<section id='home' className='h-screen'>
 			<img className='w-full h-full object-cover' src={banner1} alt="" />
 			<div className="absolute inset-0 bg-black/30"></div>
 			<div className="absolute inset-0 flex items-center justify-left text-white p-32">
@@ -13,11 +13,12 @@ export default function Banner() {
 					<p className='uppercase font-black text-4xl'>Chào mừng đến với hạt bí</p>
 					<p>Giao diện, Website, Apps và hơn thế nữa</p>
 					<div className='flex items-center gap-4 mt-8'>
-						<Button>Khám phá ngay</Button>
-
+						<a href="#service">
+							<Button>Khám phá ngay</Button>
+						</a>
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 	)
 }

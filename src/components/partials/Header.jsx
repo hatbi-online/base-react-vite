@@ -4,13 +4,36 @@ import logo from '../../assets/logo.png'
 export default function Header() {
 
 	const navItems = [
-		{ name: 'Trang chủ', path: '#home' },
-		{ name: 'Về chúng tôi', path: '#about' },
-		{ name: 'Dịch vụ', path: '#service' },
-		{ name: 'Bảng giá', path: '#pricing' },
-		{ name: 'Blog', path: 'https://blog.hatbi.online', external: true },
-		{ name: 'Liên hệ', path: '#contact' },
-		{ name: 'English', path: '#contact' },
+		{
+			name: 'Trang chủ',
+			path: '#home',
+			actionIcon: 'down'
+		},
+		{
+			name: 'Dịch vụ',
+			path: '#service'
+		},
+		{
+			name: 'Bảng giá',
+			path: '#pricing'
+		},
+		{
+			name: 'Về chúng tôi',
+			path: '#about'
+		},
+		{
+			name: 'Blog',
+			path: 'https://blog.hatbi.online',
+			external: true
+		},
+		{
+			name: 'Liên hệ',
+			path: '#contact'
+		},
+		{
+			name: 'English',
+			path: '#contact'
+		},
 	]
 
 	const [scrolled, setScrolled] = useState(false)

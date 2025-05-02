@@ -1,10 +1,16 @@
 import React from 'react'
 import Card from '../../common/Card'
+import loginForm from '../../../assets/illustrations/login_form.svg'
+import landingpage from '../../../assets/illustrations/landing_page.svg'
+import adminDashboard from '../../../assets/illustrations/admin_dashboard.svg'
+import blog from '../../../assets/illustrations/blog.svg'
+import wordpress from '../../../assets/illustrations/wordpress.svg'
+
 
 export default function Service() {
 	return (
-		<div className='bg-white/10 min-h-screen px-32 flex items-center'>
-			<div>
+		<section id='service' className='bg-white min-h-screen p-32 flex flex-col justify-center items-center'>
+			<div className='mb-32'>
 				<p className='text-center font-semibold uppercase mb-16'>Dịch vụ</p>
 				<div className='grid grid-cols-4 gap-8'>
 					<Card>
@@ -25,6 +31,32 @@ export default function Service() {
 					</Card>
 				</div>
 			</div>
-		</div>
+
+			<div>
+				<p className='text-center font-semibold uppercase mb-16'>Các sản phẩm nổi bật của chúng tôi</p>
+				<div className='grid grid-cols-6 gap-8'>
+					<Card className='flex flex-col justify-between col-span-2'>
+						<img src={loginForm} alt="" />
+						<p className='text-lg mt-4 text-center'>Authentication Page</p>
+					</Card>
+					<Card className='flex flex-col justify-between col-span-2'>
+						<img src={landingpage} alt="" />
+						<p className='text-lg mt-4 text-center'>Landing Page</p>
+					</Card>
+					<Card className='flex flex-col justify-between col-span-2'>
+						<img src={adminDashboard} alt="" />
+						<p className='text-lg mt-4 text-center'>Admin Dashboard</p>
+					</Card>
+					<Card className='flex flex-col justify-between col-span-3'>
+						<img src={wordpress} alt="" />
+						<p className='text-lg mt-4 text-center'>Wordpress Website</p>
+					</Card>
+					<Card className='flex flex-col justify-between col-span-3'>
+						<img src={blog} alt="" />
+						<p className='text-lg mt-4 text-center'>Website hoàn chỉnh</p>
+					</Card>
+				</div>
+			</div>
+		</section>
 	)
 }
