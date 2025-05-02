@@ -6,6 +6,11 @@ import adminDashboard from '../../../assets/illustrations/admin_dashboard.svg'
 import blog from '../../../assets/illustrations/blog.svg'
 import wordpress from '../../../assets/illustrations/wordpress.svg'
 
+import theme from '../../../assets/icon/theme.png'
+import web from '../../../assets/icon/web.png'
+import server from '../../../assets/icon/server.png'
+import api from '../../../assets/icon/api.png'
+
 
 export default function Service() {
 	return (
@@ -14,19 +19,31 @@ export default function Service() {
 				<p className='text-center font-semibold uppercase mb-16'>Dịch vụ</p>
 				<div className='grid grid-cols-4 gap-8'>
 					<Card>
-						<p className='text-xl mb-4'>Giao diện</p>
+						<div className='flex items-start gap-4 mb-4'>
+							<img src={theme} className='w-8 h-8 object-cover' alt="" />
+							<p className='text-xl'>Giao diện</p>
+						</div>
 						<p>Cung cấp lên tới hơn 1000 giao diện có sẵn với nhiều công nghệ khác nhau và các lĩnh vực hiện hành như Ecommerce Website, Trang quản trị, Giao diện xác thực,...</p>
 					</Card>
 					<Card>
-						<p className='text-xl mb-4'>Website đầy đủ chức năng và Ứng dụng di động</p>
+						<div className='flex items-start gap-4 mb-4'>
+							<img src={web} className='w-8 h-8 object-cover' alt="" />
+							<p className='text-xl'>Website & Apps</p>
+						</div>
 						<p>Ngoài ra chúng tôi còn cung cấp ứng dụng Mobile, Desktop và Website đầy đủ chức năng từ SSR và CSR tuỳ chỉnh theo ý muốn của bạn</p>
 					</Card>
 					<Card>
-						<p className='text-xl mb-4'>Máy chủ & Triển khai hệ thống</p>
+						<div className='flex items-start gap-4 mb-4'>
+							<img src={server} className='w-8 h-8 object-cover' alt="" />
+							<p className='text-xl'>Tên miền & Máy chủ</p>
+						</div>
 						<p>Hỗ trợ triển khai ứng dụng lên các hệ thống máy chủ với tốc độ cực nhanh và bảo mật cao</p>
 					</Card>
 					<Card>
-						<p className='text-xl mb-4'>Tích hợp dịch vụ</p>
+						<div className='flex items-start gap-4 mb-4'>
+							<img src={api} className='w-8 h-8 object-cover' alt="" />
+							<p className='text-xl'>Tích hợp dịch vụ</p>
+						</div>
 						<p>Tích hợp các dịch vụ tiện ích như SEO, Bảo mật, Giao hàng & Thanh toán trực tuyến trên nhiều nền tảng khác nhau như Momo, VNPay, Paypal,...</p>
 					</Card>
 				</div>

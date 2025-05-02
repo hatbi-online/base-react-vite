@@ -4,9 +4,10 @@ import Button from '../../common/Button'
 export default function Pricing() {
 	const prices = [
 		{
+			id: 1,
 			name: 'Free',
 			price: 0,
-			description: 'Không cần bỏ ra bất kỳ chi phí nào, bạn cũng có thể sử dụng dịch vụ của chúng tôi với đa dạng vụ và tính năng cơ bản',
+			description: 'Miễn phí sử dụng dịch vụ và tính năng cơ bản',
 			features: [
 				'Kho giao diện miễn phí xây dựng sẵn',
 				'Triển khai trên Github Page và Vercel',
@@ -15,7 +16,35 @@ export default function Pricing() {
 			buttonText: 'Đăng ký ngay',
 		},
 		{
-			name: 'Pro',
+			name: 'Cơ Bản 1',
+			price: 0,
+			description: 'Không cần bỏ ra bất kỳ chi phí nào, bạn cũng có thể sử dụng dịch vụ của chúng tôi với đa dạng vụ và tính năng cơ bản',
+			features: [
+				'Các tính năng của gói miễn phí',
+				'Wordpress Website',
+				'Cấu hình tên miền tuỳ chỉnh',
+				'Cấu hình và triển khai trên Shared Hosting',
+
+			],
+			value: [],
+			buttonText: 'Đăng ký ngay',
+		},
+		{
+			name: 'Cơ Bản 2',
+			price: 0,
+			description: 'Không cần bỏ ra bất kỳ chi phí nào, bạn cũng có thể sử dụng dịch vụ của chúng tôi với đa dạng vụ và tính năng cơ bản',
+			features: [
+				'Các tính năng của gói miễn phí',
+				'Wordpress Website',
+				'Cấu hình tên miền tuỳ chỉnh',
+				'Cấu hình và triển khai trên Shared Hosting',
+
+			],
+			value: [],
+			buttonText: 'Đăng ký ngay',
+		},
+		{
+			name: 'Chuyên Nghiệp',
 			price: 0,
 			description: 'Không cần bỏ ra bất kỳ chi phí nào, bạn cũng có thể sử dụng dịch vụ của chúng tôi với đa dạng vụ và tính năng cơ bản',
 			features: [
@@ -40,7 +69,7 @@ export default function Pricing() {
 					<p className='font-bold uppercase text-orange-400 mb-8'>miễn phí</p>
 					<div>
 						<div className='mb-8 min-h-24'>
-							<p className='text-center mb-8'>Không cần bỏ ra bất kỳ chi phí nào, bạn cũng có thể sử dụng dịch vụ của chúng tôi với đa dạng vụ và tính năng cơ bản</p>
+							<p className='text-center mb-8'>Miễn phí sử dụng dịch vụ và tính năng cơ bản</p>
 						</div>
 						<div className='mb-8'>
 							<ul className='list-disc flex flex-col text-left space-y-4'>

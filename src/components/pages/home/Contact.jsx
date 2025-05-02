@@ -1,5 +1,6 @@
 import React from 'react'
 import FormInput from '../../common/FormInput'
+import Button from '../../common/Button'
 
 export default function Contact() {
 	return (
@@ -13,6 +14,7 @@ export default function Contact() {
 							<FormInput />
 							<textarea name="" id="" cols="30" rows="10" placeholder='Nội dung' className='border-2 border-orange-400 rounded-lg p-4'></textarea>
 						</div>
+						<Button className='mt-8 inline-block' variant='primary'>Gửi</Button>
 					</form>
 				</div>
 				<div>
