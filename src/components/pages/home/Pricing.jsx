@@ -65,7 +65,7 @@ export default function Pricing() {
 			<p className='text-center font-semibold uppercase mb-16'>Bảng giá dịch vụ</p>
 
 			<div className='grid grid-cols-4 gap-8'>
-				<div className='bg-white flex flex-col items-center border-2 border-orange-400 rounded-lg p-8 hover:cursor-pointer'>
+				<div className='bg-white shadow-md border-2 border-transparent hover:border-2 hover:border-orange-400 hover:bg-orange-50 transition duration-500 flex flex-col items-center rounded-lg p-8 hover:cursor-pointer'>
 					<p className='font-bold uppercase text-orange-400 mb-8'>miễn phí</p>
 					<div>
 						<div className='mb-8 min-h-24'>
@@ -76,7 +76,7 @@ export default function Pricing() {
 								<li>HTML5/CSS3/Javascript</li>
 								<li>Kho giao diện đa dạng xây dựng sẵn</li>
 								<li>Triển khai trên Github Page và Vercel</li>
-								<li>0ms - Không cần chờ đợi thời gian xây dựng</li>
+								<li>Không cần chờ đợi thời gian xây dựng</li>
 								<li>Trợ lý AI Bot</li>
 							</ul>
 						</div>
@@ -86,7 +86,7 @@ export default function Pricing() {
 						<Button variant='outline'>Đăng ký ngay</Button>
 					</div>
 				</div>
-				<div className='bg-white flex flex-col items-center border-2 border-orange-400 rounded-lg p-8 hover:cursor-pointer'>
+				<div className='bg-white flex flex-col items-center shadow-md border-2 border-transparent hover:border-2 hover:border-orange-400 hover:bg-orange-50 transition duration-500 rounded-lg p-8 hover:cursor-pointer'>
 					<p className='font-bold uppercase text-orange-400 mb-8'>Cơ bản 1</p>
 					<div className='mb-16'>
 						<div className='mb-8 min-h-24'>
@@ -107,7 +107,7 @@ export default function Pricing() {
 						<Button variant='outline'>Đăng ký ngay</Button>
 					</div>
 				</div>
-				<div className='bg-white flex flex-col items-center border-2 border-orange-400 rounded-lg p-8 hover:cursor-pointer'>
+				<div className='bg-white flex flex-col items-center shadow-md border-2 border-transparent hover:border-2 hover:border-orange-400 hover:bg-orange-50 transition duration-500 rounded-lg p-8 hover:cursor-pointer'>
 					<p className='font-bold uppercase text-orange-400 mb-8'>Cơ bản 2</p>
 					<div className='mb-16'>
 						<div className='mb-8 min-h-24'>
@@ -130,7 +130,7 @@ export default function Pricing() {
 						<Button variant='outline'>Đăng ký ngay</Button>
 					</div>
 				</div>
-				<div className='bg-white flex flex-col items-center border-2 border-orange-400 rounded-lg p-8 hover:cursor-pointer'>
+				<div className='bg-white flex flex-col items-center shadow-md border-2 border-transparent hover:border-2 hover:border-orange-400 hover:bg-orange-50 transition duration-500 rounded-lg p-8 hover:cursor-pointer'>
 					<p className='font-bold uppercase text-orange-400 mb-8'>Chuyên nghiệp</p>
 					<div className='mb-16'>
 						<div className='mb-8 min-h-24'>
