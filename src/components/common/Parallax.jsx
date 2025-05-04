@@ -10,7 +10,7 @@ export default function Parallax({ backgroundImage, children }) {
 				bgRef.current.style.transform = `translateY(${offset * 0.5}px)`;
 			}
 		};
-		window.addEventListener("scroll", handleScroll);
+		winrdow.addEventListener("scroll", handleScroll);
 		return () => window.removeEventListener("scroll", handleScroll);
 	}, []);
 
