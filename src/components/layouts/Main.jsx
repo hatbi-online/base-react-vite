@@ -1,9 +1,7 @@
 import React from 'react'
-import MainRoute from '../routes/MainRoute'
-import Header from '../partials/Header'
 import Footer from '../partials/Footer'
-import Card from '../common/Card'
-import Button from '../common/Button'
+import Header from '../partials/Header'
+import MainRoute from '../routes/MainRoute'
 
 export default function Main() {
 	return (
